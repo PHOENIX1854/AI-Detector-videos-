@@ -140,7 +140,6 @@ How to Use
 
 Simply open a video on YouTube, a YouTube Short, or an Instagram Reel. The extension will automatically detect the video, show a gray "Analyzing..." box in the top-right corner, and then update it with the final "AI" or "REAL" verdict.
 
-![Uploading Screenshot 2025-11-07 at 7.15.50 PM.png…]()
 
 License
 
