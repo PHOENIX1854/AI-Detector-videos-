@@ -1,10 +1,10 @@
-AI-Generated Video Detector (Full-Stack)
+#AI-Generated Video Detector (Full-Stack)
 
 A full-stack application that detects whether a video is AI-generated. This project uses a powerful Python/PyTorch backend to run a custom-trained AI model and a lightweight browser extension to display the results as an overlay on YouTube and Instagram.
 
 (The overlay appears in the top-right corner, showing the "AI" or "REAL" verdict)
 
-Features
+##Features
 
 Real-time Detection: Analyzes videos as you browse.
 
@@ -16,7 +16,7 @@ Broad Support: Works on YouTube (full videos and Shorts) and Instagram (Reels).
 
 Full-Stack Architecture: Demonstrates a robust client-server model with a Python/Flask API backend and a JavaScript extension frontend.
 
-Tech Stack
+##Tech Stack
 
 Backend: Python, Flask, PyTorch, yt-dlp (for video downloading)
 
@@ -24,7 +24,7 @@ Frontend: JavaScript, HTML, CSS (as a Browser Extension)
 
 AI Model: openai/clip-vit-base-patch32 + a custom MLP classifier (.pth)
 
-Architecture: Why Server-Side?
+##Architecture: Why Server-Side?
 
 This project uses a client-server architecture. The browser extension is a "dumb" client that simply sends the current video URL to a local Python server, which does all the heavy lifting.
 
@@ -82,6 +82,7 @@ Easy to Maintain: To update the AI model, you just update the .pth file on the s
 
 For a personal or portfolio project, this architecture is a vastly superior, simpler, and more powerful solution.
 
+##<img width="1233" height="744" alt="Screenshot 2025-11-07 at 7 15 50 PM" src="https://github.com/user-attachments/assets/311779e9-2455-4df8-b06c-02748b5f4205" />
 How to Run This Project
 
 You must run both the backend server and the frontend extension at the same time.
@@ -139,6 +140,7 @@ How to Use
 
 Simply open a video on YouTube, a YouTube Short, or an Instagram Reel. The extension will automatically detect the video, show a gray "Analyzing..." box in the top-right corner, and then update it with the final "AI" or "REAL" verdict.
 
+![Uploading Screenshot 2025-11-07 at 7.15.50 PM.png…]()
 
 License
 
